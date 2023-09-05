@@ -13,6 +13,7 @@ function maiorNumero() {
         console.log(`O número ${num2} é o maior entre os 3 digitados\n`)
     } else if (num3 > num1 && num2) {
         console.log(`O número ${num3} é o maior entre os 3 digitados\n`)
+        console.clear()
     }
 }
 do {
