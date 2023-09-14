@@ -1,8 +1,6 @@
 import PromptSync from "prompt-sync";
 const prompt = PromptSync()
 
-let opcao = 0
-
 function maiorNumero() {
     const num1 = Number(prompt("Digite um número: "))
     const num2 = Number(prompt("Digite o segundo número: "))
