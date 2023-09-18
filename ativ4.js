@@ -22,7 +22,7 @@ do {
         }
     }
     while (true) {
-        entrada = prompt(`Digite um hobbie de ${matriz[i][j-k]} (Aperte enter sem digitar nada para não digitar mais hobbies): `)
+        entrada = prompt(`Digite um hobbie de ${matriz[i][j-j]} (Aperte enter sem digitar nada para não digitar mais hobbies): `)
         if (entrada !== "") {
             matriz[i].push(entrada)
             j++
