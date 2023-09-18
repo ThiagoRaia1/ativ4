@@ -7,8 +7,6 @@ let j
 let k
 let entrada
 let matriz = [
-    [], // Nao achei como faço para ter linhas ilimitadas na matriz
-    [],
     []
 ]
 
@@ -34,6 +32,7 @@ do {
         }
     }
     i++
+    matriz.push([])
     opcao = prompt("Deseja adicionar outro nome? (S/N): ")
 } while (opcao === 's' || opcao === 'S')
 
